@@ -1,0 +1,18 @@
+services:
+
+  efirst_aspnet:
+    build:
+      context: ./
+      dockerfile: ./docker/aspnet/Dockerfile
+    container_name: efirst_aspnet
+    image: efirst_aspnet
+    volumes:
+      - ./src:/Wryco/EFirst/
+    networks:
+      - efirst
+
+networks:
+
+  efirst:
+    name: efirst
+    driver: bridge

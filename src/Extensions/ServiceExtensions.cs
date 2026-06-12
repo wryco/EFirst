@@ -30,7 +30,7 @@ public static class ServiceExtensions
         services.AddScoped<LoginSessionRepository>();
         services.AddScoped<LoginAttemptRepository>();
         services.AddScoped<FilePointerRepository>();
-        
+
         return services;
     }
 }

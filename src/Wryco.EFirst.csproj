@@ -1,16 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+<IsPackable>true</IsPackable>
+    <PackageId>Wryco.EFirst</PackageId>
+    <PackageVersion>1.0.2</PackageVersion>
+    <Authors>ramity</Authors>
+    <Company>Wryco</Company>
+    <Description>An entity first design pattern. Simply extend base classes.</Description>
+    <PackageDescription>An entity first design pattern. Simply extend base classes.</PackageDescription>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://wryco.com/EFirst</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/wryco/EFirst</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>PACKAGE-README.md</PackageReadmeFile>
+    <PackageTags>QOL; Extension; Boilerplate; Base</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IncludeSource>true</IncludeSource>
+    <DevelopmentDependency>false</DevelopmentDependency>
+    <IsTool>false</IsTool>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>Wryco.EFirst</PackageId>
-    <Version>1.0.2</Version>
-    <Authors>ramity</Authors>
-    <Company>Wryco</Company>
-    <Description>Modular base classes to extend from.</Description>
-    <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/wryco/EFirst</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

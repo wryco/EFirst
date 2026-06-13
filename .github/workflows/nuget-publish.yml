@@ -40,7 +40,7 @@ jobs:
       - name: NuGet push
         run: docker exec efirst_aspnet sh -c "dotnet nuget push bin/Release/*.nupkg --api-key ${{steps.login.outputs.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json"
       - name: Docker compose down
-        run: ./scripts/development/docker_down.sh
+        run: ./scripts/docker_down.sh
         shell: bash
   post_clean:
     name: post_clean
